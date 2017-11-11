@@ -15,18 +15,13 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
 nav ul {
   margin: 40px 0 0 0;
   padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
 }
 
 nav a {
@@ -50,3 +45,15 @@ h3#header {
   color: #868e96;
 }
 
+div.jumbotron{
+  background-color: #e9ecef;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+div.jumbotron p{
+  font-size: 20px;
+  padding: 0 40px 0 40px;
+  line-height: 40px;
+}
