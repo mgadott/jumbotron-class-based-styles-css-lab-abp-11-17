@@ -24,6 +24,11 @@ nav ul {
   padding: 0;
 }
 
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
 nav a {
   text-decoration: none;
   color: #007bff;
@@ -56,4 +61,8 @@ div.jumbotron p{
   font-size: 20px;
   padding: 0 40px 0 40px;
   line-height: 40px;
+}
+
+.jumbotron h1{
+  font-size: 60px;
 }
